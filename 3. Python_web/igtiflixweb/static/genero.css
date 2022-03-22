@@ -27,5 +27,36 @@ form label{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+table {
+    margin: 30px;
+    text-align: center;
+
+} 
+
+thead {
+    background: #20c997;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px; 
+}
+
+.list-button{
+    border:none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 1em;
+} 
+
+.editar-button{
+    background: darkgreen;
+}
+
+.apagar-button{
+    background: red;
 }

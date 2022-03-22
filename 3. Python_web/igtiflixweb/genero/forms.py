@@ -1,8 +1,9 @@
 from django import forms
 from genero.models import Genero
-class GeneroFom(forms.Form):
+
+class GeneroForm(forms.ModelForm):
     
     class Meta:
         model = Genero
-        fileds = "__all__"
+        fields = "__all__"
         
